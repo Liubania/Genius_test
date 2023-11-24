@@ -22,3 +22,9 @@ ul {
 .link:hover {
       color: # 819b57;
 }
+.hero-title {
+      color: #faf4ea;
+}
+.hero-title span {
+      color: #819b57;
+}
