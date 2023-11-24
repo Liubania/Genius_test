@@ -25,6 +25,10 @@ ul {
 .hero-title {
       color: #faf4ea;
 }
-.hero-title.accent {
+.hero-title .accent {
       color: #819b57;
+}
+
+.advantages-list {
+       background-color: #819b57;
 }
