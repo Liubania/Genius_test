@@ -1,4 +1,6 @@
 :root {
+       --color-primary-dark: #31261a;
+       --color-primary-light: #faf4ea;
        --color-brand: #819b57;
 }
 
@@ -10,7 +12,7 @@ ul {
 
 /* Button */
 .button {
-       color: #faf4ea;
+       color: var (--color-primary-light);
        background-color: var (--color-brand);
        border: 2px solid var (--color-brand);
        border-radius: 8px;
@@ -24,7 +26,7 @@ ul {
 
 /* Link */
 .link {
-      color: #faf4ea;
+      color: var (--color-primary-light);
 }
 
 .link:hover {
@@ -33,7 +35,7 @@ ul {
 
 /* Hero section */
 .hero-title {
-      color: #faf4ea;
+      color: var (--color-primary-light);
 }
 .hero-title .accent {
       color:var (--color-brand);
@@ -41,10 +43,10 @@ ul {
 
 /* Advantages section */
 .advantages-list {
-       color: #faf4ea;
+       color:var (--color-primary-light);
        background-color: var (--color-brand);
 }
 
 .section-title {
-       color:31261a;
+       color: var (--color-primary-dark);
 }
