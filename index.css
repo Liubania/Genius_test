@@ -1,3 +1,7 @@
+ul {
+       list-style-type: none;
+}
+
 .button {
        color: #faf4ea;
        background-color: #819b57;
