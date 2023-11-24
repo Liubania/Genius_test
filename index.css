@@ -25,6 +25,6 @@ ul {
 .hero-title {
       color: #faf4ea;
 }
-.hero-title .accent {
+.hero-title.accent {
       color: #819b57;
 }
