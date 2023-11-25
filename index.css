@@ -58,7 +58,11 @@ ul {
 }
 
 /* Traditions sections */
-.tradition-text brand {
+.tradition-text .brand {
+       color: var(--color-brand-light);
+}
+
+.tradition-text .uppercase {
        text-transform: uppercase;
        color: var(--color-brand-light);
 }
