@@ -119,3 +119,7 @@ ul {
 .address-link:hover {
      color: var(--color-brand-light);  
 }
+
+.address-copyright {
+     font-size: 14px;
+}
