@@ -64,9 +64,15 @@ ul {
 
 .advantages-item {
        font-size: 20px;
-      font-weight: 300; 
+       font-weight: 300; 
 }
 
+.section-title {
+       font-size: 64px;
+       font-weight: 900; 
+       line-height: 84px;
+
+       
 .section-title .accent {
        color: var(--color-brand-dark);
 }
