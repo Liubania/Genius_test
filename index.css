@@ -62,6 +62,7 @@ ul {
 /* Traditions sections */
 .tradition-text .brand {
        color: var(--color-brand-light);
+       font-weight: 600;
 }
 
 .tradition-text .uppercase {
