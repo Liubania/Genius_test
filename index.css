@@ -20,6 +20,7 @@ ul {
 /* Button */
 .button {
        color: var(--color-primary-light);
+       font-weght: 600;
        background-color: var(--color-brand-light);
        border: 2px solid var(--color-brand-light);
        border-radius: 8px;
@@ -48,7 +49,7 @@ ul {
       color: var(--color-primary-light);
       text-align: center;
       text-size: 128px;
-      text-weight: 900; 
+      font-weight: 900; 
 }
 .hero-title .accent {
       color:var(--color-brand-light);
