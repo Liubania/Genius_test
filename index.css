@@ -60,5 +60,5 @@ ul {
 /* Traditions sections */
 .tradition-text span {
        text-transform: uppercase;
-       color: var(--color-brand-dark);
+       color: var(--color-brand-light);
 }
