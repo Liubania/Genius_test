@@ -43,6 +43,7 @@ ul {
 }
 .hero-title .accent {
       color:var(--color-brand-light);
+      font-family: 'Poppins', sans-serif;
 }
 
 /* Advantages section */
