@@ -87,3 +87,9 @@ ul {
        text-transform: uppercase;
        color: var(--color-brand-light);
 }
+
+/*        Chefs section */
+.chef-title {
+        font-size: 40px;
+       font-weight: 600; 
+}
