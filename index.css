@@ -83,7 +83,7 @@ ul {
 
 /* Hero section */
 .hero-section {
-      padding: 272px;
+      padding: 272px 0;
 }
   
 .hero-title {
@@ -91,6 +91,7 @@ ul {
       text-align: center;
       font-size: 128px;
       font-weight: 900; 
+      margin-bottom: 0;
 }
 .hero-title .accent {
       color:var(--color-brand-light);
