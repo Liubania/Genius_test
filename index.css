@@ -56,7 +56,11 @@ ul {
 }
 
 .hidden {
-  
+  positio:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  overflow:hidden;
 }
 .section {
   padding: 48px 0; 
