@@ -82,6 +82,10 @@ ul {
 }
 
 /* Hero section */
+.hero-section {
+      padding: 272px;
+}
+  
 .hero-title {
       color: var(--color-primary-light);
       text-align: center;
