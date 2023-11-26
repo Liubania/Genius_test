@@ -131,6 +131,9 @@ ul {
 }
 
 /* Traditions sections */
+.traditions-section {
+  padding-top: 96px;
+}  
 .tradition-text .brand {
        color: var(--color-brand-light);
        font-weight: 600;
