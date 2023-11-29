@@ -140,6 +140,7 @@ ul {
 
 /* Advantages section */
 .advantages-section {
+     padding: 16px 0;
      background-color: var(--color-brand-light);
 }
   
