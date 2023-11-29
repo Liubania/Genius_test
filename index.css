@@ -170,6 +170,14 @@ ul {
 .traditions-section {
   padding-top: 96px;
 }  
+
+.traditions-container {
+  display: flex;
+}
+.traditions-title {
+  margin-bottom: 42px; 
+}
+  
 .tradition-text .brand {
        color: var(--color-brand-light);
        font-weight: 600;
@@ -177,8 +185,7 @@ ul {
 
 .tradition-text .uppercase {
        text-transform: uppercase;
-       color: var(--color-brand-light);
-}
+       }
 
 /* Chefs section */
 .chef-title {
