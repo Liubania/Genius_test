@@ -145,12 +145,12 @@ ul {
   
 .advantages-list {
       display: flex;
-      color: var(--color-primary-light);
       justify-content: space-between;
       gap: 40px;
     }
 
 .advantages-item {
+      color: var(--color-primary-light);
       font-size: 20px;
       font-weight: 300; 
 }
