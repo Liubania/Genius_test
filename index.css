@@ -100,9 +100,17 @@ ul {
 
 /* Header */
 .header-container {
-  display: flex;
+       display: flex;
+       align-items: center;
+       
 }
 
+.header-nav {
+      flex-grow: 1; 
+      display: flex;
+      align-items: center;
+}
+  
 /* Hero section */
 .hero-section {
       padding: 272px 0;
