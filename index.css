@@ -147,6 +147,7 @@ ul {
       display: flex;
       color: var(--color-primary-light);
       justify-content: space-between;
+      gap: 40px;
     }
 
 .advantages-item {
