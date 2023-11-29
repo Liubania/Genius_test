@@ -173,6 +173,7 @@ ul {
 
 .traditions-container {
   display: flex;
+  gap: 100px;
 }
 .traditions-title {
   margin-bottom: 42px; 
