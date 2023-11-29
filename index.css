@@ -173,8 +173,9 @@ ul {
 
 .traditions-container {
   display: flex;
-  gap: 100px;
+  justify-content: space-between;
 }
+  
 .traditions-title {
   margin-bottom: 42px; 
 }
@@ -188,6 +189,10 @@ ul {
        text-transform: uppercase;
        }
 
+.tradition-text.limited {
+  max-width: 340 px;
+}
+  
 /* Chefs section */
 .chef-title {
        font-size: 40px;
