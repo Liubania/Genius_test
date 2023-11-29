@@ -112,18 +112,13 @@ ul {
       align-items: center;
 }
 
-.header-menu {
+.header-menu {   
       display: flex;
+      gap: 64px;
+      flex-grow: 1;
+      jusify-conten: center;
 }
 
-.header-item {
-  margin-right: 64px;
-  }
-
-.header-item: last-child {
-  margin-right: 0;
-}
-  
 /* Hero section */
 .hero-section {
       padding: 272px 0;
