@@ -98,6 +98,11 @@ ul {
       font-weight: 600; 
 }
 
+/* Header */
+.header-container {
+  display: flex;
+}
+
 /* Hero section */
 .hero-section {
       padding: 272px 0;
