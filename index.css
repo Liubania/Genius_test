@@ -205,6 +205,10 @@ ul {
 }
 
 /* Formats section */
+.format-card {
+        border: 1px solid lightgrey;
+        border-radius: 16px;
+}
 .format-title {
        font-size: 24px;
        font-weight: 600; 
