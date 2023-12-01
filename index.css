@@ -207,6 +207,7 @@ ul {
 /* Formats section */
 .formats-list {
         display: flex;
+        gap: 20px;
 }
   
 .format-card {
