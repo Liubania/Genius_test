@@ -206,7 +206,7 @@ ul {
 
 /* Formats section */
 .format-card {
-        border: 1px solid lightgrey;
+        border: 1px solid lightgrey;  /*  remoove color */
         border-radius: 16px;
 }
 .format-title {
