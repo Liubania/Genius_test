@@ -208,6 +208,7 @@ ul {
 .formats-list {
         display: flex;
         gap: 20px;
+        padding: 24px;
 }
   
 .format-card {
