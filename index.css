@@ -240,23 +240,23 @@ ul {
 }
   
 .address-link {
-     color: var(--color-primary-light);
-     font-size: 16px;
-     font-weight: 300;
-     text-decoration: none;
+  color: var(--color-primary-light);
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
 }
 
 .address-link:hover {
-     color: var(--color-brand-light);  
+  color: var(--color-brand-light);  
 }
 
 .address-copyright {
-     font-size: 14px;
+  font-size: 14px;
 }
 
 .footer {
-  background-image: url('../images/footer-background.png');
   background-color: var(--color-primary-dark);
+  background-image: url('../images/footer-background.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
