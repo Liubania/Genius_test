@@ -205,8 +205,12 @@ ul {
 }
 
 /* Formats section */
+.formats-list {
+        display: flex;
+}
+  
 .format-card {
-        border: 1px solid lightgrey;  /*  remoove color */
+        border: 1px solid lightgrey;  /*  remove color */
         border-radius: 16px;
 }
 .format-title {
