@@ -204,11 +204,23 @@ ul {
 }
   
 /* Chefs section */
-.chef-title {
+.chefs-title {
        font-size: 40px;
-       font-weight: 600; 
+      }
+  
+.chefs-title::after {
+       display: block;
+       width: 352px;
+       border: 2px solid var(--color-brand-light);
+       content: ''; 
 }
 
+  .chef-title {
+      margin-bottom: 16px;
+      font-size: 40px;
+      font-weight: 600;
+  }
+  
 /* Formats section */
 .formats-item {
         flex-basis: calc((100% - 40px) / 3);
