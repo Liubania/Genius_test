@@ -34,6 +34,7 @@
   :root {
        --color-primary-dark: #31261a;
        --color-primary-light: #faf4ea;
+       --color-secondary-dark: #A28268;
        --color-brand-normal: #819b57;
        --color-brand-dark: #465929;
        --color-brand-light: #cfcfbc;
@@ -245,6 +246,8 @@ ul {
 
 .chef-photo {
       border-radius: 4px 4px 4px 200px;
+      box-shadow: -16px 16px 0 0 white, 
+                  -16px 16px 0 2px var(--color-secondary-dark);
   }
   
   .chef-title {
