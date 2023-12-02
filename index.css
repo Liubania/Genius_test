@@ -243,6 +243,10 @@ ul {
        content: ''; 
 }
 
+.chef-photo {
+      border-radius: 4px 4px 4px 200px;
+  }
+  
   .chef-title {
       margin-bottom: 16px;
       font-size: 40px;
