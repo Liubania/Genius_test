@@ -52,13 +52,35 @@ address {
        font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+address {
+  font-style: normal;
+}
+  
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.hidden {
+.visualy-hidden {
+   position: absolute;
+   left: -10000px;
+   top: auto;
+   width: 1px;
+   height: 1px;
+}
+  
+  .hidden {
   positio:absolute;
   left:-10000px;
   top:auto;
@@ -200,15 +222,17 @@ ul {
        }
 
 .tradition-text.limited {
-  max-width: 340 px;
+       max-width: 340px;
 }
   
 /* Chefs section */
 .chefs-title {
        font-size: 40px;
+       max-width: 520px;
       }
   
-.chefs-title::after {
+.chefs-title::after,
+.chefs-title::before  {
        display: block;
        width: 352px;
        border: 2px solid var(--color-brand-light);
