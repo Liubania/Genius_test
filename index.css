@@ -231,12 +231,12 @@ ul {
   
 /* Chefs section */
 .chefs-title {
-       font-size: 40px;
        max-width: 520px;
+       margin: 0 auto 80px;
       }
   
-.chefs-title::after,
-.chefs-title::before  {
+.chefs-title::before,
+.chefs-title::after   {
        display: block;
        width: 352px;
        border: 2px solid var(--color-brand-light);
@@ -251,14 +251,14 @@ ul {
   
 /* Formats section */
 .formats-item {
-        flex-basis: calc((100% - 40px) / 3);
+      flex-basis: calc((100% - 40px) / 3);
 }
   
 .formats-list {
-        display: flex;
-        gap: 20px;
-        padding: 24px;
-        flex-wrap: wrap;
+      display: flex;
+      padding: 24px;
+      flex-wrap: wrap;
+      gap: 20px;
 }
   
 .format-card {
