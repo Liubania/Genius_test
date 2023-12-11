@@ -292,6 +292,7 @@ ul {
 .carousel-button {
   width: 44px;
   height: 44px;
+  bachground-color: transparant;
   border-radius: 50%;
 }
 
