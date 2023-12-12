@@ -305,6 +305,14 @@ ul {
   fill: var(--color-primary-dark);
 } 
 
+.carousel-button:hover {
+  bachground-color:  var(--color-primary-dark); 
+  } 
+
+.carousel-button:hover .carousel-arrow {
+  fill: var(--color-primary-light);
+}
+  
 /* Footer */
 .iframe {
   max-width: 1240px;
